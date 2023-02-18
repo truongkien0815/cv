@@ -1,0 +1,44 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#main>header
+{
+    background: black;
+}
+#nav li {
+    display: inline-block;
+    
+}
+
+#nav .subnav {
+/* display: none; */
+}
+.more{
+    position: relative;
+}
+.subnav{
+    position: absolute;
+    top: 40px;
+ 
+}
+ul .subnav li {
+   display: none;
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+#nav li{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+#nav li:hover a {
+    background: gray;
+    
+}
